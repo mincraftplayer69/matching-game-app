@@ -24,6 +24,7 @@
             android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:contentDescription="@string/description_img"
             app:srcCompat="@drawable/minecraft" />
 
     </androidx.cardview.widget.CardView>
@@ -44,6 +45,7 @@
             android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:contentDescription="@string/description_img"
             app:srcCompat="@drawable/minecraft" />
     </androidx.cardview.widget.CardView>
 
@@ -63,6 +65,7 @@
             android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:contentDescription="@string/description_img"
             app:srcCompat="@drawable/minecraft" />
 
     </androidx.cardview.widget.CardView>
@@ -83,6 +86,7 @@
             android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:contentDescription="@string/description_img"
             app:srcCompat="@drawable/minecraft" />
 
     </androidx.cardview.widget.CardView>
@@ -103,6 +107,7 @@
             android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:contentDescription="@string/description_img"
             app:srcCompat="@drawable/minecraft" />
 
     </androidx.cardview.widget.CardView>
@@ -123,6 +128,7 @@
             android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:contentDescription="@string/description_img"
             app:srcCompat="@drawable/minecraft" />
 
     </androidx.cardview.widget.CardView>
@@ -143,6 +149,7 @@
             android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:contentDescription="@string/description_img"
             app:srcCompat="@drawable/minecraft" />
 
     </androidx.cardview.widget.CardView>
@@ -163,6 +170,7 @@
             android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:contentDescription="@string/description_img"
             app:srcCompat="@drawable/minecraft" />
 
     </androidx.cardview.widget.CardView>
@@ -183,6 +191,7 @@
             android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:contentDescription="@string/description_img"
             app:srcCompat="@drawable/minecraft" />
 
     </androidx.cardview.widget.CardView>
