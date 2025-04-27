@@ -18,6 +18,13 @@
         app:layout_constraintStart_toEndOf="@+id/card1"
         app:layout_constraintTop_toTopOf="parent">
 
+        <ImageView
+            android:id="@+id/card2_back"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/minecraft" />
+
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -30,6 +37,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <ImageView
+            android:id="@+id/card1_back"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/minecraft" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -41,6 +54,13 @@
         android:clickable="true"
         app:layout_constraintStart_toEndOf="@+id/card2"
         app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/card3_back"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/minecraft" />
 
     </androidx.cardview.widget.CardView>
 
@@ -54,6 +74,13 @@
         app:layout_constraintStart_toEndOf="@+id/card4"
         app:layout_constraintTop_toTopOf="parent">
 
+        <ImageView
+            android:id="@+id/card5_back"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/minecraft" />
+
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -65,6 +92,13 @@
         android:clickable="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/card4_back"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/minecraft" />
 
     </androidx.cardview.widget.CardView>
 
@@ -78,6 +112,13 @@
         app:layout_constraintStart_toEndOf="@+id/card5"
         app:layout_constraintTop_toTopOf="parent">
 
+        <ImageView
+            android:id="@+id/card6_back"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/minecraft" />
+
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -89,6 +130,13 @@
         android:clickable="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/card7_back"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/minecraft" />
 
     </androidx.cardview.widget.CardView>
 
@@ -102,6 +150,13 @@
         app:layout_constraintStart_toEndOf="@+id/card7"
         app:layout_constraintTop_toTopOf="parent">
 
+        <ImageView
+            android:id="@+id/card8_back"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/minecraft" />
+
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -113,6 +168,13 @@
         android:clickable="true"
         app:layout_constraintStart_toEndOf="@+id/card8"
         app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/card9_back"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/minecraft" />
 
     </androidx.cardview.widget.CardView>
 
