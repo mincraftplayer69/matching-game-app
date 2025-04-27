@@ -29,6 +29,7 @@
         android:layout_marginStart="160dp"
         android:layout_marginTop="136dp"
         android:text="@string/label_start"
+        android:onClick="startGame"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title" />
 
