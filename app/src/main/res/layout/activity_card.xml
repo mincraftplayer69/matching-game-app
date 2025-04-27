@@ -12,8 +12,8 @@
         android:id="@+id/card2"
         android:layout_width="100dp"
         android:layout_height="150dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
         android:clickable="true"
         android:contentDescription="@string/description_card"
         app:layout_constraintStart_toEndOf="@+id/card1"
@@ -21,11 +21,19 @@
 
         <ImageView
             android:id="@+id/card2_back"
-            android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:layout_marginTop="40dp"
             android:contentDescription="@string/description_img"
             app:srcCompat="@drawable/minecraft" />
+
+        <ImageView
+            android:id="@+id/card2_front"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/description_img"
+            app:srcCompat="@drawable/enderman" />
 
     </androidx.cardview.widget.CardView>
 
@@ -33,8 +41,8 @@
         android:id="@+id/card1"
         android:layout_width="100dp"
         android:layout_height="150dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
         android:clickable="true"
         android:contentDescription="@string/description_card"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,40 +50,27 @@
 
         <ImageView
             android:id="@+id/card1_back"
-            android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:layout_marginTop="40dp"
             android:contentDescription="@string/description_img"
             app:srcCompat="@drawable/minecraft" />
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/card3"
-        android:layout_width="100dp"
-        android:layout_height="150dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="56dp"
-        android:clickable="true"
-        android:contentDescription="@string/description_card"
-        app:layout_constraintStart_toEndOf="@+id/card2"
-        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/card3_back"
-            android:layout_marginTop="40dp"
+            android:id="@+id/card1_front"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:layout_marginTop="40dp"
             android:contentDescription="@string/description_img"
-            app:srcCompat="@drawable/minecraft" />
-
+            app:srcCompat="@drawable/blaze" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card5"
         android:layout_width="100dp"
         android:layout_height="150dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="176dp"
         android:clickable="true"
         android:contentDescription="@string/description_card"
         app:layout_constraintStart_toEndOf="@+id/card4"
@@ -83,32 +78,20 @@
 
         <ImageView
             android:id="@+id/card5_back"
-            android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:layout_marginTop="40dp"
             android:contentDescription="@string/description_img"
             app:srcCompat="@drawable/minecraft" />
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/card4"
-        android:layout_width="100dp"
-        android:layout_height="150dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="220dp"
-        android:clickable="true"
-        android:contentDescription="@string/description_card"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/card4_back"
-            android:layout_marginTop="40dp"
+            android:id="@+id/card5_front"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:layout_marginTop="40dp"
             android:contentDescription="@string/description_img"
-            app:srcCompat="@drawable/minecraft" />
+            app:srcCompat="@drawable/steve" />
+
 
     </androidx.cardview.widget.CardView>
 
@@ -116,8 +99,8 @@
         android:id="@+id/card6"
         android:layout_width="100dp"
         android:layout_height="150dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="176dp"
         android:clickable="true"
         android:contentDescription="@string/description_card"
         app:layout_constraintStart_toEndOf="@+id/card5"
@@ -125,11 +108,19 @@
 
         <ImageView
             android:id="@+id/card6_back"
-            android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:layout_marginTop="40dp"
             android:contentDescription="@string/description_img"
             app:srcCompat="@drawable/minecraft" />
+
+        <ImageView
+            android:id="@+id/card6_front"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/description_img"
+            app:srcCompat="@drawable/zombie" />
 
     </androidx.cardview.widget.CardView>
 
@@ -137,8 +128,8 @@
         android:id="@+id/card7"
         android:layout_width="100dp"
         android:layout_height="150dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="384dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="340dp"
         android:clickable="true"
         android:contentDescription="@string/description_card"
         app:layout_constraintStart_toStartOf="parent"
@@ -146,11 +137,166 @@
 
         <ImageView
             android:id="@+id/card7_back"
-            android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:layout_marginTop="40dp"
             android:contentDescription="@string/description_img"
             app:srcCompat="@drawable/minecraft" />
+
+        <ImageView
+            android:id="@+id/card7_front"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/description_img"
+            app:srcCompat="@drawable/zombie" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card10"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="504dp"
+        android:clickable="true"
+        android:contentDescription="@string/description_card"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/card10_back"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/description_img"
+            app:srcCompat="@drawable/minecraft" />
+
+        <ImageView
+            android:id="@+id/card10_front"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/description_img"
+            app:srcCompat="@drawable/pigman" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card11"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="504dp"
+        android:clickable="true"
+        android:contentDescription="@string/description_card"
+        app:layout_constraintStart_toEndOf="@+id/card10"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/card11_back"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/description_img"
+            app:srcCompat="@drawable/minecraft" />
+
+        <ImageView
+            android:id="@+id/card11_front"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/description_img"
+            app:srcCompat="@drawable/enderman" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card12"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="504dp"
+        android:clickable="true"
+        android:contentDescription="@string/description_card"
+        app:layout_constraintStart_toEndOf="@+id/card11"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/card12_back"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/description_img"
+            app:srcCompat="@drawable/minecraft" />
+
+        <ImageView
+            android:id="@+id/card12_front"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/description_img"
+            app:srcCompat="@drawable/blaze" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card4"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="176dp"
+        android:clickable="true"
+        android:contentDescription="@string/description_card"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/card4_back"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/description_img"
+            app:srcCompat="@drawable/minecraft" />
+
+        <ImageView
+            android:id="@+id/card4_front"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/description_img"
+            app:srcCompat="@drawable/skeleton" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card3"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:contentDescription="@string/description_card"
+        app:layout_constraintStart_toEndOf="@+id/card2"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/card3_back"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/description_img"
+            app:srcCompat="@drawable/minecraft" />
+
+        <ImageView
+            android:id="@+id/card3_front"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/description_img"
+            app:srcCompat="@drawable/pigman" />
 
     </androidx.cardview.widget.CardView>
 
@@ -158,8 +304,8 @@
         android:id="@+id/card8"
         android:layout_width="100dp"
         android:layout_height="150dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="384dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="340dp"
         android:clickable="true"
         android:contentDescription="@string/description_card"
         app:layout_constraintStart_toEndOf="@+id/card7"
@@ -167,11 +313,19 @@
 
         <ImageView
             android:id="@+id/card8_back"
-            android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:layout_marginTop="40dp"
             android:contentDescription="@string/description_img"
             app:srcCompat="@drawable/minecraft" />
+
+        <ImageView
+            android:id="@+id/card8_front"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/description_img"
+            app:srcCompat="@drawable/steve" />
 
     </androidx.cardview.widget.CardView>
 
@@ -179,8 +333,8 @@
         android:id="@+id/card9"
         android:layout_width="100dp"
         android:layout_height="150dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="384dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="340dp"
         android:clickable="true"
         android:contentDescription="@string/description_card"
         app:layout_constraintStart_toEndOf="@+id/card8"
@@ -188,20 +342,29 @@
 
         <ImageView
             android:id="@+id/card9_back"
-            android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:layout_marginTop="40dp"
             android:contentDescription="@string/description_img"
             app:srcCompat="@drawable/minecraft" />
 
+        <ImageView
+            android:id="@+id/card9_front"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/description_img"
+            app:srcCompat="@drawable/skeleton" />
+
     </androidx.cardview.widget.CardView>
+
 
     <Button
         android:id="@+id/btn_retry"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="16dp"
         android:text="@string/label_retry"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -210,8 +373,8 @@
         android:id="@+id/btn_quit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="144dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginBottom="16dp"
         android:text="@string/label_quit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_retry" />
