@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Pairs</string>
+    <string name="label_start">Start</string>
+    <string name="label_retry">Retry</string>
+    <string name="label_quit">Quit</string>
+</resources>
