@@ -3,4 +3,5 @@
     <string name="label_start">Start</string>
     <string name="label_retry">Retry</string>
     <string name="label_quit">Quit</string>
+    <string name="description_card">This card when tapped, flips and if it matches to another tapped card, you get a point.</string>
 </resources>
