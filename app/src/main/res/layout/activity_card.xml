@@ -378,6 +378,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginBottom="16dp"
         android:text="@string/label_retry"
+        android:onClick="retryGame"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -388,6 +389,7 @@
         android:layout_marginStart="156dp"
         android:layout_marginBottom="16dp"
         android:text="@string/label_quit"
+        android:onClick="quitGame"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_retry" />
 
